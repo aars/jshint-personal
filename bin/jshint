@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+require('../src/require-override.js');
+
+require("../node_modules/jshint/src/cli.js").interpret(process.argv);
